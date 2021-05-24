@@ -95,3 +95,12 @@
 # area = np.pi * (15 * np.random.rand(N))**2
 # plt.scatter(x, y, s=area, c=colors, alpha=0.5)
 # plt.show()
+
+# Partial Functions:
+def my_func(a, b, c):
+    print(a, b, c)
+    
+f = partial(my_func, 10)   
+f(20, 30)
+
+
